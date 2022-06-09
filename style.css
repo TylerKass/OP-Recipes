@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Indie Flower", "Oswald", cursive;
+}
+
+#chef-logo__index {
+  height: 175px;
+  display: block;
+  margin: 0 auto;
+}
+
+#h1-index {
+  margin-top: 2px;
+  font-size: 54px;
+  text-align: center;
+}
+
+.container-index {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* coldbrew section */
+.coldbrew-index {
+  text-align: center;
+}
+
+.logo-index__1 {
+  height: 500px;
+  transition: transform 0.5s;
+}
+
+.logo-index__1:hover {
+  border: 3px solid #99f2c8;
+  border-radius: 30px;
+  transform: scale(1.05);
+}
+
+/* Pizza section */
+
+.pizza-index {
+  text-align: center;
+}
+
+.logo-index__2 {
+  height: 500px;
+  width: 366px;
+  transition: transform 0.5s;
+}
+
+.logo-index__2:hover {
+  border: 3px solid #99f2c8;
+  border-radius: 30px;
+  transform: scale(1.05);
+}
+
+/* Matcha oreo */
+.matchaoreo-index {
+  text-align: center;
+}
+
+.logo-index__3 {
+  height: 500px;
+  width: 366px;
+  transition: transform 0.5s;
+}
+
+.logo-index__3:hover {
+  border: 3px solid #99f2c8;
+  border-radius: 30px;
+  transform: scale(1.05);
+}
+/* end of index */
+
+/* start of coldbrew */
+
+#coldbrew-hero {
+  background-image: url("images/coffee-float.jpeg");
+  background-size: cover;
+  background-position: 25% 30%;
+  height: 350px;
+  text-align: center;
+}
+
+#h1-coldbrew {
+  font-weight: 700;
+  font-size: 60px;
+  color: #373b44;
+  padding: 150px;
+}
+
+.container-recipes {
+  display: flex;
+  line-height: 2;
+}
+
+#ingredients-coldbrew {
+  border: black 1px solid;
+  list-style-position: inside;
+  padding: 32px;
+  background-color: #652a0e;
+  color: #cd7700;
+}
+
+#ingredients-coldbrew h2 {
+  text-align: center;
+}
+
+#instructions-coldbrew {
+  list-style-position: inside;
+  padding: 42px;
+  background-color: #652a0e;
+  color: #cd7700;
+  line-height: 1.8;
+}
+
+#instructions-coldbrew h2 {
+  text-align: center;
+}
+#prep-time__container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 15px auto;
+}
+
+#prep-time__1 {
+  padding: 120px;
+}
+
+#coffee-float__3 {
+  height: 275px;
+  width: 275px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#credit-coffefloat {
+  background-color: #373b44;
+  height: 24px;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/* Media Query */
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 979px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 320px) {
+}
