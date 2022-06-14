@@ -57,7 +57,7 @@
 }
 
 /* Matcha oreo */
-.matchaoreo-index {
+.oreosmores-index {
   text-align: center;
 }
 
@@ -80,7 +80,7 @@
   background-image: url("images/coffee-float.jpeg");
   background-size: cover;
   background-position: 25% 30%;
-  height: 350px;
+  height: 325px;
   text-align: center;
 }
 
@@ -88,7 +88,7 @@
   font-weight: 700;
   font-size: 60px;
   color: #373b44;
-  padding: 150px;
+  padding: 125px;
 }
 
 .container-recipes {
@@ -139,7 +139,6 @@
 
 #credit-coffefloat {
   background-color: #373b44;
-  height: 24px;
   color: white;
   text-decoration: none;
   position: fixed;
@@ -147,6 +146,164 @@
   bottom: 0;
   width: 100%;
   text-align: center;
+  padding: 8px;
+}
+
+/* Pizza Quesadillas */
+#pizzadilla-hero {
+  background-image: url("images/Pizza-Quesadillas-4.jpg");
+  background-size: cover;
+  background-position: 10% 30%;
+  height: 310px;
+  text-align: center;
+}
+
+#h1-pizzadilla {
+  font-weight: 700;
+  font-size: 60px;
+  color: black;
+  padding: 115px;
+}
+
+.container-recipes {
+  display: flex;
+  line-height: 2;
+}
+
+#ingredients-pizzadilla {
+  border: black 1px solid;
+  list-style-position: inside;
+  padding: 32px;
+  background-color: #800;
+  color: white;
+  width: 270px;
+  height: 604px;
+}
+
+#ingredients-pizzadilla h2 {
+  text-align: center;
+}
+
+#instructions-pizzadilla {
+  list-style-position: inside;
+  border: black 1px solid;
+  padding: 42px;
+  background-color: #800;
+  color: white;
+  line-height: 1.8;
+  width: 100%;
+}
+
+#instructions-pizzadilla h2 {
+  text-align: center;
+}
+#total-time__container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px auto;
+}
+
+#total-time__2 {
+  padding: 120px;
+}
+
+#pizzadilla__3 {
+  height: 275px;
+  width: 275px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#credit-pizzadilla {
+  background-color: #373b44;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Smore Oreos */
+#oreosmore-hero {
+  background-image: url("images/background-oreo.jpeg");
+  background-size: cover;
+  background-position: 10% 30%;
+  height: 310px;
+  text-align: center;
+}
+
+#h1-smore {
+  font-weight: 700;
+  font-size: 60px;
+  color: #1e130c;
+  padding: 130px;
+}
+
+.container-recipes {
+  display: flex;
+  line-height: 2;
+}
+
+#ingredients-smore {
+  border: black 1px solid;
+  list-style-position: inside;
+  padding: 32px;
+  background-color: #1e130c;
+  color: #9a8478;
+  width: 270px;
+  height: 604px;
+}
+
+#ingredients-smore h2 {
+  text-align: center;
+}
+
+#instructions-smore {
+  list-style-position: inside;
+  border: black 1px solid;
+  padding: 42px;
+  background-color: #1e130c;
+  color: #9a8478;
+  line-height: 1.8;
+  width: 100%;
+}
+
+#instructions-smore h2 {
+  text-align: center;
+}
+
+#total-time-smore__container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px auto;
+}
+
+#total-time-smore__2 {
+  padding: 120px;
+}
+
+#smore__3 {
+  height: 275px;
+  width: 275px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#credit-smore {
+  background-color: #373b44;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
 }
 /* Media Query */
 
